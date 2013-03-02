@@ -19,6 +19,24 @@
 	</head>
 	<body>
 		<div id="telescopeLogo" role="banner"><img src="${resource(dir: 'images', file: 'entheos_discovery.png')}" alt="Discover Logo"/></div>
+
+    <ul id="globalnav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#" class="here">Sign Up</a>
+        <ul>
+          <li><a href="#">Information</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#" class="here">History</a></li>
+          <li><a href="#">Sponsorship</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Information</a></li>
+      <li><a href="#">Volunteers</a></li>
+      <li><a href="#">Parents</a></li>
+
+    </ul>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>

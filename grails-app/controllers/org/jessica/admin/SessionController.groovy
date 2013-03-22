@@ -1,5 +1,6 @@
-package org.jessica
+package org.jessica.admin
 
+import org.jessica.Session
 import org.springframework.dao.DataIntegrityViolationException
 
 class SessionController {

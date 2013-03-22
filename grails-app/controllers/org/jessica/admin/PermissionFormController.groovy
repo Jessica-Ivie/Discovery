@@ -1,5 +1,6 @@
-package org.jessica
+package org.jessica.admin
 
+import org.jessica.PermissionForm
 import org.springframework.dao.DataIntegrityViolationException
 
 class PermissionFormController {

@@ -1,8 +1,6 @@
 package org.jessica
 
-
-
-import org.junit.*
+import org.jessica.admin.CourseController
 import grails.test.mixin.*
 
 @TestFor(CourseController)

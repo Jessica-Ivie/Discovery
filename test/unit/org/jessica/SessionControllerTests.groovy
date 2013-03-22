@@ -1,8 +1,6 @@
 package org.jessica
 
-
-
-import org.junit.*
+import org.jessica.admin.SessionController
 import grails.test.mixin.*
 
 @TestFor(SessionController)

@@ -1,8 +1,6 @@
 package org.jessica
 
-
-
-import org.junit.*
+import org.jessica.admin.CommentController
 import grails.test.mixin.*
 
 @TestFor(CommentController)

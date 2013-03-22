@@ -1,5 +1,6 @@
-package org.jessica
+package org.jessica.admin
 
+import org.jessica.Hours
 import org.springframework.dao.DataIntegrityViolationException
 
 class HoursController {
